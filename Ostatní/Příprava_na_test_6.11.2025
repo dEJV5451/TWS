@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Moje Zdravá volba</title>
+  <link rel="stylesheet" href="CSS/CSS.css">
+  
+</head>
+
+<body>
+  
+<div id="main">
+  <div id="logo_place">
+    <p><img src="Rajská Jablíčka/rajče.jpg" alt="Rajska_jablicka" width="200px" title="Rajče"/></p>
+    <figcaption>titulek</figcaption>
+  </div>
+  <div id="title_nav">
+    <h1>Zdravá volba</h1>
+    <p>Níže naleznete podrobný ceník
+        našich džusů, a ostatních nápojů:</p>
+        <table class="tabulka">
+          <caption style="padding:5px;">Položka</caption> 
+          <tbody>
+            <tr>
+              <td class="pax">Položka</td>
+              <td class="pax">Cena</td>
+            </tr>
+            <tr>
+              <td class="pxa" colspan="2"><b><i>Džusy </i></b></td>
+            </tr>
+            <tr>
+              <td>Pomerančový džus</td>
+              <td>35,00</td>
+            </tr>
+            <tr>
+              <td>Jablečný džus</td>
+              <td>35,00</td>
+            </tr>
+            <tr>
+              <td>Mrkvový džus</td>
+              <td>35,00</td>
+            </tr>
+            <tr>
+              <td>Mrkvový a jablečný džus</td>
+              <td>45,00</td>
+            </tr>
+            <tr>
+              <td>Jahodové překvapení</td>
+              <td>49,50</td>
+            </tr>
+            <tr>
+              <td class="pxa" colspan="2"><b><i>Koktejly</b></i></td>
+            </tr>
+            <tr>
+              <td>Jahodový koktejl</td>
+              <td>49,50</td>
+            </tr>
+            <tr>
+              <td>Jahodový a banánový koktejl</td>
+              <td>49,50</td>
+            </tr>
+            <tr>
+              <td>Berry Bonanza</td>
+              <td>49,50</td>
+            </tr>
+            <tr>
+              <td>Detox Special</td>
+              <td>49,50</td>
+            </tr>
+            <tr>
+              <td>Energiser</td>
+              <td>49,50</td>
+            </tr>
+            <tr>
+              <td class="pxa" colspan="2"><b><i><a name="ostatni"></a>Ostatní</i></b></td>
+            </tr>
+            <tr>
+              <td>Káva</td>
+              <td>29,50</td>
+            </tr>
+            <tr>
+              <td>Latte</td>
+              <td>29,50</td>
+            </tr>
+            <tr>
+              <td>Mléko</td>
+              <td>20,00</td>
+            </tr>
+            <tr>
+              <td>Voda</td>
+              <td>10,00</td>
+            </tr>
+          </tbody>
+        </table>
+  </div>
+  <div id="content">
+    <p class="ttt">Naposledy aktualizováno: 20. června 2011</p>
+    <h2>O společnosti Zdravá volba</h2>
+     <h2><a href="mailto:david.gutter@student.souepl.cz">Kontakt</a></h2>
+    <p class="barva">Pokud mě budete chtít kontaktovat, klikněte na odkaz Kontakt:</p>
+    <p>
+    <p>
+      Jsme hrdí na to, že nabízíme zdravé&nbsp;nápoje a občerstvení.
+      Spektrum našich koktejlů a ovocných šťáv je opravdu široké. Můžeme
+      zaručit, že všechny poskytované produkty jsou z čistých přírodních
+      surovin. Chutnají všem, a proto budou chutnat i Vám. Všechny naše
+      výrobky jsou vždy čerstvé, protože ovoce zpracováváme vždy v den
+      přípravy nápoje. Mnoho z našich šťávy je k dispozici také bez vlákniny.
+    </p>
+    <p><strong>Naše džusy a ovocné šťávy zaručují:</strong></p>
+    <ol>
+      <li>Vysoký podíl čistých živin, vitamínů a antioxidantyů<br /></li>
+      <li>Vysokým podíl vlákniny pro prevenci srdečních onemocnění a cukrovky</li>
+      <li>Snížení krevního tlaku a cholesterolu </li>
+      <li>Malý obsah sodíku a nízká energetická hodnota </li>
+    </ol>
+    <p>
+      Všechny naše produkty jsou 100% přírodní bez cukru, konzervačních
+      látek, umělých barviv a přísad. Naše šťávy a koktejly jsou výživné
+      nápoje s vysokým obsahem vitaminů a jsou vhodné pro všechny věkové
+      kategorie. Je to skvělý způsob, jak si Vás získat alespoň jednu denně!
+    </p>
+    <form action="">
+      <label for="">Jméno</label>
+      <input type="text" name="Jméno"> <br>
+      
+      <label for="">Jím zdravě</label>
+      <input type="checkbox" name="" id=""> <br>
+
+      <input type="submit" name="Odeslat" id="">
+      <input type="reset" name="Reset" id="">
+    </form>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  </div>
+
+</div>
+
+</body>
+</html>
