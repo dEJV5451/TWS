@@ -1,0 +1,61 @@
+nav{
+    background-color: rgba(0, 0, 0, 0.24);
+    width: 500px;
+    margin: 20px auto;
+}
+a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    padding: 1px; /* prostor uvnitř prvku */
+}
+a:hover{
+    background-color: rgba(58, 44, 44, 0.836); /* barva pozadí, když na prvku mám myš */
+}
+ul{
+    list-style-type: none; /* typ odrážky nebo číslování seznamu */
+    overflow: hidden; /* určuje, co se stane, když prvek protéká přes hranice */
+}
+li{
+    float: left; /* umožňuje ostatním prvkům, aby ho obtékali */
+    padding: 28px; /* prostor uvnitř prvku */
+    text-align: center;
+}
+h1{
+    margin: 20px auto;
+    text-align: center;
+    width: 500px;
+    /*border: 2px solid black;*/
+}
+.Kytka{
+    float: left; /* umožňuje ostatním prvkům, aby ho obtékali */
+    padding: 10px; /* prostor uvnitř prvku */
+}
+p{
+    text-align: justify; /* zarovná text do bloku */
+}
+body{
+    background-color: rgb(231, 237, 241);
+}
+.obrazek{
+    margin: 15px;
+    position:absolute; left:760px; top:150px;
+    float: none;
+}
+h2{
+    position: fixed; top: 400px; left: 855px;
+}
+.text1{
+    position: fixed; top: 440px; left: 750px;
+}
+.text2{
+    position: fixed; top: 460px; left: 700px;
+}
+.text3{
+    position: fixed; top: 480px; left: 850px;
+}
+.info{
+    position: fixed; top: 495px; left: 1005px;
+    color: blue;
+}
