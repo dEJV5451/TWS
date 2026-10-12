@@ -1,0 +1,10 @@
+.druha{
+    list-style-type: circle; /* Změní mi symbol, který mi prvek označuje */
+}
+.treti{
+    list-style-type: circle; /* Změní mi symbol, který mi prvek označuje */
+}
+#barva{
+    color: rgb(56, 253, 6);
+    text-align: justify;
+}
