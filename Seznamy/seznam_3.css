@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box; /* šířka a výška prvku*/
+}
+ 
+header{
+    background:gray;
+    padding:15px;
+}
+ 
+#menu-toggle{
+    display:none;
+}
+ 
+.hamburger{
+    color:white;
+    font-size:30px;
+    cursor:pointer;
+    display:block;
+}
+ 
+/* menu skryté */
+nav{
+    display:none;
+    margin-top:10px;
+}
+ 
+/* po kliknutí na hamburger */
+#menu-toggle:checked ~ nav{
+    display:block;
+}
+ 
+nav ul{
+    list-style:none;
+}
+ 
+nav li{
+    margin:10px 0;
+}
+ 
+nav a{
+    color:white;
+    text-decoration:none;
+}
+ 
+/* DESKTOP */
+@media (min-width:1000px){
+ 
+    header{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+ 
+    .hamburger{
+        display:none;
+    }
+ 
+    nav{
+        display:block;
+        margin-top:0;
+    }
+ 
+    nav ul{
+        display:flex;
+        gap:30px;
+    }
+ 
+    nav li{
+        margin:0;
+    }
+}
