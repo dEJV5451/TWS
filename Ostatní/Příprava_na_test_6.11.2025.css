@@ -1,0 +1,36 @@
+.tabulka{
+    border: 1px solid rgb(0, 132, 255);
+    border-collapse: collapse;
+    text-align: right 5px;
+}
+.pxa{
+    background-color: yellow;
+    color: rgb(7, 71, 247);
+}
+.odsazeni{
+    text-align: right;
+}
+.kontakt{
+    color: black;
+    text-transform: capitalize;
+}
+.pax{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.barva{
+    text-align: center;
+    text-decoration: underline;
+}
+ol{
+    list-style-type: circle;
+}
+td{
+    border: 1px solid rgb(0, 132, 255);
+}
+th,td{
+    padding: 5px;
+}
+.ttt{
+    text-align: right;
+}
