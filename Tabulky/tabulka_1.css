@@ -1,0 +1,19 @@
+table{
+    border: 2px solid;
+    margin: 200px; /* posunutí na stránku */
+    padding: 1px; /* mezera mezi textem a borderem */
+    background-color: aqua;
+    border-color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+    width: 35%; /* roztáhnutí borderu */
+    text-align: center; /* vycentrování textu na střed */
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 6px 3px red;
+}
+th{
+    border: 2px solid;
+    margin: auto;
+}
+td{
+    border: 2px solid
+}
