@@ -1,3 +1,7 @@
-document.getElementById("showDate").addEventListener("click", function() {
-    document.getElementById("demo").innerHTML = Date();
-});
+function zobrazDatum() {
+    let datum = Date();
+
+    document.getElementById("demo").innerHTML = datum;
+}
+
+document.getElementById("showDate").addEventListener("click", zobrazDatum);
